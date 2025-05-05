@@ -44,6 +44,9 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem 'brakeman', require: false
 
+  # brings the RSpec testing framework to Ruby on Rails [https://rspec.info/]
+  gem 'rspec-rails'
+
   # Static code analyzer and formatter [https://docs.rubocop.org/]
   gem 'rubocop', require: false
 

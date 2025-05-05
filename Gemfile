@@ -61,6 +61,9 @@ group :development, :test do
 
   # Code style checking for Rails-related RSpec files [https://docs.rubocop.org/rubocop-rspec_rails]
   gem 'rubocop-rspec_rails', require: false
+
+  # Simple one-liner tests for common Rails functionality [https://matchers.shoulda.io/]
+  gem 'shoulda-matchers'
 end
 
 group :development do

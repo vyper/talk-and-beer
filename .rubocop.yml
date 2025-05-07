@@ -4,5 +4,8 @@ plugins:
   - rubocop-rspec
   - rubocop-rspec_rails
 
+AllCops:
+  NewCops: enable
+
 Style/Documentation:
   Enabled: false

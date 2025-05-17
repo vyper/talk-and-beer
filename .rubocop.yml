@@ -1,4 +1,5 @@
 plugins:
+  - rubocop-capybara
   - rubocop-performance
   - rubocop-rails
   - rubocop-rspec
@@ -6,6 +7,9 @@ plugins:
 
 AllCops:
   NewCops: enable
+
+RSpecRails/InferredSpecType:
+  Enabled: false
 
 Style/Documentation:
   Enabled: false

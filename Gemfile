@@ -38,6 +38,9 @@ gem 'thruster', require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  # Acceptance test framework for web applications
+  gem 'capybara'
+
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
 
@@ -49,6 +52,9 @@ group :development, :test do
 
   # Static code analyzer and formatter [https://docs.rubocop.org/]
   gem 'rubocop', require: false
+
+  # Code style checking for Capybara files [https://docs.rubocop.org/rubocop-capybara]
+  gem 'rubocop-capybara', require: false
 
   # An extension of RuboCop focused on code performance checks [https://docs.rubocop.org/rubocop-performance]
   gem 'rubocop-performance', require: false

@@ -1,0 +1,14 @@
+en:
+  passwords:
+    create:
+      success: 'Password reset instructions sent (if user with that email address exists).'
+    update:
+      success: 'Password has been reset.'
+      failed: 'Passwords did not match.'
+    set_user_by_token:
+      failed: 'Password reset link is invalid or has expired.'
+  sessions:
+    create:
+      failed: 'Try another email address or password.'
+    rate_limit:
+      failed: 'Try again later.'
